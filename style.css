@@ -1,0 +1,181 @@
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    line-height: 1.5;
+    }
+    /* remove codrops styles and reset the whole thing */
+    body{
+    background-image: url(bg.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    }
+    .download1{
+    background-image:url(piggyvest-logo.svg);
+    width: 190px;
+    height: 36px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    }
+    #container{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    }
+    #wrapper{
+    width: 60%;
+    right: 0px;
+    min-height: 560px;
+    margin: 0px auto;
+    width: 400px;
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    }
+    /**** Styling the form elements **/
+    /**** general text styling ****/
+    #wrapper a{
+    color: rgb(95, 155, 198);
+    text-decoration: underline;
+    }
+    button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    color: ##E4EAF0;
+    }
+    .text-sm{
+    color:#CACDD2;
+    font-family: Karla,sans-serif;
+    margin: 0;
+    font-size: .875rem;
+    font-weight:
+    }
+    .text-piggybank{
+    font-size: 1.5rem;
+    color: #083E9E;
+    text-align: center;
+    font-family: ;
+    font-weight: 700;
+    font-family: sans-serif;
+    }
+    /** For the moment only webkit supports the background-clip:text; */
+    #wrapper h1{
+    background: -webkit-repeating-linear-gradient(-45deg,
+    rgb(18, 83, 93) ,
+    rgb(18, 83, 93) 20px,
+    rgb(64, 111, 118) 20px,
+    rgb(64, 111, 118) 40px,
+    rgb(18, 83, 93) 40px);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    }
+    #wrapper h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(147,184,189,0)), color-stop(20%,rgba(147,184,189,0.8)), color-stop(53%,rgba(147,184,189,1)), color-stop(79%,rgba(147,184,189,0.8)), color-stop(100%,rgba(147,184,189,0)));
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+    background: -o-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+    background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+    }
+    #wrapper p{
+    margin-bottom:15px;
+    }
+    #wrapper p:first-child{
+    margin: 0px;
+    }
+    #wrapper label{
+    color: rgb(64, 92, 96);
+    position: relative;
+    }
+    ::-webkit-input-placeholder {
+    color: rgb(190, 188, 188);
+    font-style: bold;
+    }
+    input:-moz-placeholder,
+    textarea:-moz-placeholder{
+    color: rgb(190, 188, 188);
+    font-style: italic;
+    }
+    input {
+    outline: none;
+    background-color: #EDF2F7;
+    }
+
+
+    /* option styling*/
+    .optiontab{
+
+    width: 10px;
+    height: 500px;
+    }
+    /* all the input except submit and checkbox */
+    #wrapper input:not([type="checkbox"]){
+    width: 92%;
+    height: 30px;
+    border-radius: 150px;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;
+    border-radius: .25rem;
+    border: 0 solid #E2E8F0;
+    }
+    #wrapper input:not([type="checkbox"]):active,
+    #wrapper input:not([type="checkbox"]):focus{
+    border: 1px solid rgba(91, 90, 90, 0.7);
+    background: rgba(238, 236, 240, 0.2);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+    -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+    }
+    
+    button 
+    {
+        color: #fff;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20;
+        font-size: 15px;
+        margin: 10px; 
+        border: none 0;
+        cursor: pointer;
+        outline: none;
+    }
+    .signin-btn
+    {
+    background-color: #083E9E;   
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    padding: 20px;
+    font-size: 20px;
+
+    }
+
+.change_link
+{
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+   color: white;
+}
+
+.click
+{
+    margin: 0;
+    padding: 50;
+    background-color: #EDF2F7;
+    width: 100%;
+    height: 200;
+}
+    
